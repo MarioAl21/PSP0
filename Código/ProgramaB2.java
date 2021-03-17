@@ -140,7 +140,7 @@ class Frame extends JFrame
     frame_height = screen.height;  
     // frame measurements
     setBounds(frame_width/3, frame_height/4, frame_width/4, frame_height/2);
-    //setResizable(false);
+    setResizable(true);
     // Set Operation when close the Frame
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
